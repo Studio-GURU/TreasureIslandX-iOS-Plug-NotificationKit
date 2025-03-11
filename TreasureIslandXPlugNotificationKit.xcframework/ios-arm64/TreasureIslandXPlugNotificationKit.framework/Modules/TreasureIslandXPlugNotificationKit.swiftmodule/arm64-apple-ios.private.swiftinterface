@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TreasureIslandXPlugNotificationKit
+import Foundation
+import Swift
+import SwiftUI
+import TreasureIslandXFoundationKit
+@_exported import TreasureIslandXPlugNotificationKit
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class PlugNotificationBuilder {
+  public static func builder() -> any TreasureIslandXFoundationKit.NotificationContractorBuilder
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NotificationWebKit {
+  public static func retrieveStatus() -> TreasureIslandXFoundationKit.NotifyStatus
+  public static func updateStatus(status: TreasureIslandXFoundationKit.NotifyStatus)
+  public static func openInduceView(rootViewController: UIKit.UIViewController, title: Swift.String, content: Swift.String, delaySeconds: Swift.Int, payload: Swift.String)
+  public static func openSetting(rootViewController: UIKit.UIViewController)
+  public static func deliverNotification(title: Swift.String, content: Swift.String, delaySeconds timeInterval: Swift.Int, payload: [Swift.String : Swift.String]?, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  @objc deinit
+}

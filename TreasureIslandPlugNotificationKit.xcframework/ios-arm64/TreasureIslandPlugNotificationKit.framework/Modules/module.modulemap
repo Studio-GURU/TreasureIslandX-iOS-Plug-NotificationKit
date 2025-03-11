@@ -1,6 +1,0 @@
-framework module TreasureIslandPlugNotificationKit {
-  umbrella header "TreasureIslandPlugNotificationKit.h"
-  export *
-
-  module * { export * }
-}
