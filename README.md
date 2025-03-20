@@ -1,2 +1,2 @@
-# TreasureIsland-iOS-Plug-NotificationKit
-TreasureIsland-iOS-Plug-NotificationKit
+# TreasureIslandX-iOS-Plug-NotificationKit
+TreasureIslandX-iOS-Plug-NotificationKit
